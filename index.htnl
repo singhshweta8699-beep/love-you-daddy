@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+  <html lang="en">
+  <head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+  content="width=device-width,initial-scale=1.0">
+  <title>love you papa ♥</title>
+<style>
+*{
+  box-sizing: border-box;
+}
+body{
+  margin: 0;
+font-family: Georgia, serif;
+background: linear-gradient(135deg,#fff1f5, #ffe4ec, #fff8f0);
+  color: #4a2630;
+text-align: centre;
+}
+.hero{
+  min-height: 100vh;
+display: flex;
+flex-direction: column;
+justify-content: centre;
+align-items: centre;
+padding: 30px;
+}
+h1{
+  font-size: 55px;
+margin:10px;
+}
+h2{
+  font-size: 32px;
+}
+p{
+  font-size: 19px;
+line height: 1.8;
+max-width: 700px;
+margin: auto;
+}
+.hert{
+  font-size: 65px;
+animation: heatbeat 1.5s infinite;
+}
+@keyframes heartbeat {
+  0%, 100% {
+    transform: scale(1);
+}
+50% {
+  transform: scale(1);
+}
+50% {
+  trnsform: scale(1.2);
+}
+}
+.section {
+  padding: 70px 25px;
+max-width: 900px;
+margin: auto;
+}
+.card {
+  background: rgba(255,255 255,0.75);
+padding: 30px;
+margin: 25px, auto;
+border-radius:25px;
+box-shadow: 0 10px 30ox rgba(120, 50, 70, 0.12);
+}
+.song{
+  padding: 18px;
+border-radius: 15px;
+background: #fff;
+margin:15px auto;
+max-width:500px;
+font-size: 20px;
+}
+.footer {
+  padding:60px 20px;
+font-size:22px;
+}
+</style>
+  </head>
+  <body>
+  <section class="hero">
+  <div class="heart">♥</div>
+  <h1>love you, Papa</h1>
+ <p>
+  for the man who always been my strength,my support and my safe place.
+  </p>
+  <p>
+  No matter how old I geow I'll always be your little girl.♥
+  </p>
+  </section>
+  <section class="section">
+  <div class="card">
+  <h2>♥ A note for my papa and chacha</h2>
+<p>
+Maybe I don't sat everyday,but you both means the world to me.
+  You both have always been my strength and my safe place.
+  Thank you for eveything you have done for me,for every sacrifice,every little efforts and for always standing for me.
+  </p>
+  <br>
+  <p>
+  I may not be able to express it but I love you more than words can ever explain.♥♥♥♥♥♥
+  </p>
+  </div>
+  <div class="card">
+  <h2> papa's playlist</h2>
+  <div class="song">
+  ♥ Tujh Mein Rab Dikhta Hai
+</div>
+<p>
+More songs will bw added here.......
+  </p>
+  </div>
+  <div class="card">
+  <h2> Our memories</h2>
+  <p>
+  Our beautiful memories will live here.♥
+  </p>
+  </div>
+  </section>
+  <section class="footer">
+  <div class="heart">♥</div>
+  <p>
+  No matter where life takes me,I'll always be your daughter.
+  </p>
+  <h2>LOVE YOU FOREVER CHACHA,PAPA♥♥♥♥<h2>
+  </section>
+  </body>
+  <html>
+  
+    
+
