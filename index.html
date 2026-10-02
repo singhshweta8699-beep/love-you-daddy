@@ -7,10 +7,10 @@
   <title>love you papa ♥</title>
 <style>
 *{
-  box-sizing: border-box;
+  box-sizing:border-box;
 }
 body{
-  margin: 0;
+  margin:0;
 font-family: Georgia, serif;
 background: linear-gradient(135deg,#fff1f5, #ffe4ec, #fff8f0);
   color: #4a2630;
@@ -72,6 +72,24 @@ margin:15px auto;
 max-width:500px;
 font-size: 20px;
 }
+  .tap-button{
+    margin-top:25px;
+    padding:16px 35px;
+    background:
+    #ff6b81;
+    color:white;
+    border:none;
+    border-radius:50px;
+    font-size:20px;
+    font-weight:bold;
+    cursor:pointer;
+    box-shadow:0 8px 20px rgba(255,107,129,0.3);
+  }
+  .tap-button:active
+  {
+    transform:
+    scale(0.95);
+  }
 .footer {
   padding:60px 20px;
 font-size:22px;
@@ -79,14 +97,24 @@ font-size:22px;
 </style>
   </head>
   <body>
+    <!--HERO SECTION-->
   <section class="hero">
   <div class="heart">♥</div>
   <h1>love you, Papa</h1>
+    <!--TAP ME BUTTON-->
+    <button>
+      class="tap-button"
+      oneclick="playSong()">
+      ♥Tap Me♥
+    </button>
+      <audio id="papaSong"
+        src="WhatsApp Audio 2026-10-02 at 11.51.08 AN(1).mpeg.mp3">
+      </audio>
  <p>
-  for the man who always been my strength,my support and my safe place.
+  For the man who always been my strength,my support and my safe place.
   </p>
   <p>
-  No matter how old I geow I'll always be your little girl.♥
+  No matter how old I grow I'll always be your little Choti(Somu).♥
   </p>
   </section>
   <section class="section">
@@ -95,7 +123,7 @@ font-size:22px;
 <p>
 Maybe I don't say everyday,but you both means the world to me.
   You both have always been my strength and my safe place.
-  Thank you for eveything you have done for me,for every sacrifice,every little efforts and for always standing for me.
+  Thank you for eveything you have done for me,for every sacrifice,every little efforts and for always standing behind me.
   </p>
   <br>
   <p>
@@ -106,54 +134,38 @@ Maybe I don't say everyday,but you both means the world to me.
   <h2> papa's playlist</h2>
   <div class="song">
   ♥ Tujh Mein Rab Dikhta Hai
-<button 
-  onclick="playsong()"
-  style="margin-top:25px;
-  padding:16px 35px;
-  background:#ff6b81;
-  color:white;
-  border:none;
-  border-radius:50px;
-  font-size:20px;
-  font-weight:pointer;
-  box-shadow:0 8px 20px
-    rgba(255,107,129,03);
-  ♥ Tap Me ♥
-  </button>
-  <audio id="papaSong"
-  src="tujh-mein-rab-dikhta-hai.mp3">
-</audio>
-  <script>
-    function playSong()
-    {
-      document.getElementaryId("papaSong".play();
-    }
-  </script>
-  <h1> Love You, Papa</h1>
-  <audio id="papaSong"
-    src="WhatsApp Audio 2026-10-02 at 11.51.08 AM(1).mpeg">
-  </audio>
   </div>
-<p>
-More songs will bw added here.......
+  <p>
+    More songs will be added here......
   </p>
   </div>
   <div class="card">
-  <h2> Our memories</h2>
-  <p>
-  Our beautiful memories will live here.♥
-  </p>
+    <h2> Our beautiful memories
+    </h2>
+    <p> Our beautiful memories will live here.♥
+    </p>
   </div>
   </section>
-  <section class="footer">
-  <div class="heart">♥</div>
-  <p>
-  No matter where life takes me,I'll always be your daughter.
-  </p>
-  <h2>LOVE YOU FOREVER CHACHA,PAPA♥♥♥♥<h2>
-  </section>
+  <!--FOOTER-->
+    <section class="footer">
+      <div class="heart">♥
+      </div>
+      <p>
+        No matter where life takes me,
+        I'll always be your daughter.
+      </p>
+      <h2>
+        LOVE YOU FOREVER CHACHA PAPA♥♥
+      </h2>
+    </section>
+    <!--AUDIO FUNCTION-->
+    <script>
+      function playSong() {
+        const songdocument.getElementById("papaSong");
+        song.play();
+      }
+    </script>
   </body>
-  <html>
-  
-    
+  </html>
 
+    </script>
